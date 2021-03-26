@@ -1,2 +1,2 @@
-FROM --platform=linux/arm/v7 alpine
+FROM alpine
 RUN apk add ansible openssh
