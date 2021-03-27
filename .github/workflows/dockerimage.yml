@@ -1,12 +1,12 @@
 name: Docker Build/Publish Image 
 on:  
   push:    
-    branches: [ master ]  
+    branches: [ main ]  
 jobs:   
   build:    
     runs-on: ubuntu-18.04    
     env:      
-      DOCKER_REGISTRY: kemansel.azurecr.io      
+      DOCKER_REGISTRY: hub.docker.com      
       DOCKER_IMAGE: xkfp/ansible    
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}  
