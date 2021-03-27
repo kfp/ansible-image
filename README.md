@@ -1,2 +1,2 @@
 # ansible-image
-An ansible container image for ARM
+An ansible container image for ARM.
